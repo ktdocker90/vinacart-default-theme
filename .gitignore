@@ -2,6 +2,7 @@
 data/*
 *.zip
 readme
+update.txt
 storefront/view/mytheme/asset
 storefront/view/mytheme/config
 storefront/view/mytheme/image
