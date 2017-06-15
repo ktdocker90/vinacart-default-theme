@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+    <definition>
+        <key>text_sale_label</key>
+        <value><![CDATA[Khuyến mại]]></value>
+    </definition>
+    <definition>
+        <key>text_new_label</key>
+        <value><![CDATA[Mới]]></value>
+    </definition>
+    <definition>
+        <key>text_bestseller_label</key>
+        <value><![CDATA[Bán chạy]]></value>
+    </definition>
+    <definition>
+        <key>text_featured_label</key>
+        <value><![CDATA[Nổi bật]]></value>
+    </definition>
+    <definition>
+        <key>text_contact_us</key>
+        <value><![CDATA[Liên hệ]]></value>
+    </definition>
+    <definition>
+        <key>text_category_products</key>
+        <value><![CDATA[Sản phẩm cùng loại]]></value>
+    </definition>
+    <definition>
+        <key>text_empty_cart</key>
+        <value><![CDATA[Giỏ hàng rỗng]]></value>
+    </definition>
+    <definition>
+        <key>text_product_cart_added</key>
+        <value><![CDATA[Sản phẩm đã cho giỏ hàng]]></value>
+    </definition>
+    <definition>
+        <key>text_select_all</key>
+        <value>Tất cả</value>
+    </definition>
+
+    <definition>
+        <key>text_learn_more</key>
+        <value>Xem thêm</value>
+    </definition>
+
+</definitions>

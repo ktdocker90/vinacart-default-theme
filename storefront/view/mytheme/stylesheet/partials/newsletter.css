@@ -1,0 +1,42 @@
+
+#newslettersignup .pull-right {
+	margin-top: 15px
+}
+
+#newslettersignup .newsletter {
+	padding: 0 0 0 80px;
+	height: 100px;
+}
+#newslettersignup .newsletter {
+    position:relative;
+}    
+#newslettersignup .newsletter:before {
+	position:absolute;
+	font-family: FontAwesome;
+	top: -15px;
+	left: 5px;
+	font-size: 60px;
+	content: "\f003"; 
+}
+
+#newslettersignup .newsletter h2 {
+	font-size: 20px;
+	color: #5e626b;
+	line-height: normal;
+	margin: 0
+}
+
+.addresses>section{
+	display: inline-block;
+}
+.addresses .old_address{
+	float: left;
+}
+.addresses .new_address{
+	float: right;
+}
+
+#newslettersignup .input-prepend {
+	text-align: right;
+	float: right;
+}

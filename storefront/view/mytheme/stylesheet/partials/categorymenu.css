@@ -1,0 +1,163 @@
+#categorymenu {
+	margin: 20px 0 20px 0;
+	clear: both;
+}
+
+#categorymenu {
+	padding: 7px 0 7px 0;
+}
+
+#categorymenu:after {
+	clear: both;
+	content: ""
+}
+
+#categorymenu select {
+	display: none
+}
+
+ul.categorymenu {
+	margin: 0 6px 0 6px;
+	display: table;
+    table-layout: fixed;
+    background-color: #fff;
+}
+
+ul.categorymenu > li {
+	position: relative;
+	margin: 0;
+	border-right: 1px solid #CCCCCC;
+	display: table-cell;
+}
+
+ul.categorymenu > li:last-child {
+	border: none
+}
+
+ul.categorymenu > li > a {
+	text-decoration: none;
+	display: block;
+	z-index: 6;
+	position: relative;
+	color: #4b5b58 !important;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 5px 10px 5px 5px;
+}
+
+ul.categorymenu > li:hover > a,
+ul.categorymenu > li > a.active,
+ul.categorymenu > li.current > a {
+	text-shadow: none;
+	padding: 5px 10px 5px 5px;
+	background-color: #ccc;
+}
+
+ul.categorymenu > li > div {
+	display: none;
+	padding: 15px;
+	position: absolute;
+	top: 97%;
+	left: 7px;
+	z-index: 99999;
+	display: none;
+	float: left;
+	min-width: 180px;
+	margin: 1px 0 0;
+	list-style: none;
+	border: 1px solid #ddd;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
+}
+
+.categorymenu li a.menu_home {
+	box-shadow: none;
+	text-shadow: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: transparent url(../image/sprite.png) no-repeat;
+	padding-left: 30px !important;
+	margin-right: 22px
+}
+
+.categorymenu li a.menu_home {
+	background-position: 5px 4px;
+}
+
+.categorymenu li a:hover.menu_home {
+	background-position: 5px -27px;
+}
+
+.dropdown-menu {
+	white-space: normal;
+	padding: 10px;
+	position: absolute;
+	top: 97%;
+	left: 7px;
+	z-index: 99999;
+	display: none;
+	float: left;
+	min-width: 210px;
+	margin: 1px 0 0;
+	list-style: none;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+	white-space: normal;
+}
+
+ul.categorymenu > li:hover > div {
+	display: table;
+	width: 100%;
+	vertical-align: top;
+	background-color: #fff;
+}
+
+ul.categorymenu > li > div > ul {
+	display: table-cell;
+	vertical-align: top;
+}
+
+ul.categorymenu > li ul + ul {
+	padding-left: 10px;
+}
+
+ul.categorymenu > li ul > li {
+	display: block;
+	float: left;
+	width: 100%;
+	border-bottom: 1px dashed #ddd;
+}
+
+ul.categorymenu > li > div > ul.arrow li a {
+	padding: 8px 8px 8px 8px;
+	display: block;
+}
+
+ul.categorymenu > li ul > li > a {
+	text-decoration: none;
+	display: block;
+	white-space: normal;
+	min-width: 180px;
+	padding: 8px 8px 8px 5px;
+}
+
+ul.categorymenu > li > div > ul li:hover a,
+ul.categorymenu > li > div > ul li.current > a {
+	background-color: #ccc;
+	text-shadow: none;
+}
+
+ul.categorymenu > li > div > ul > li > a {
+	color: #999999;
+}
+
+ul.categorymenu > li ul > li img {
+	margin: 3px;
+	max-width: none
+}

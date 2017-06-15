@@ -1,0 +1,98 @@
+/*Brand*/
+#popularbrands {
+	position: relative;
+	padding: 0 0 20px 0;
+	width: auto;
+}
+
+#popularbrands .container-fluid {
+	position: relative;
+	width: auto;
+}
+
+.brandcarousalrelative {
+	position: relative;
+}
+
+#popularbrands ul#brandcarousal {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	width: auto;
+}
+
+#popularbrands  ul#brandcarousal li {
+	text-align: center;
+	border: 1px solid #ddd;
+	padding: 10px 5px;
+	margin: 6px;
+	display: block;
+	float: left;
+}
+
+#popularbrands.responsive {
+	width: auto;
+	margin-left: 0;
+}
+
+#popularbrands img.internal {
+	height: 56px;
+}
+
+#popularbrands ul#brandcarousal  .prev {
+	float: left;
+	margin-left: 10px;
+}
+
+#popularbrands ul#brandcarousal  .next {
+	float: right;
+	margin-right: 10px;
+}
+
+#popularbrands ul#brandcarousal  .pager {
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+
+#popularbrands ul#brandcarousal  .pager a {
+	margin: 0 5px;
+	text-decoration: none;
+}
+
+#popularbrands ul#brandcarousal  .pager a.selected {
+	text-decoration: underline;
+}
+
+#popularbrands ul#brandcarousal  .timer {
+	background-color: #999;
+	height: 6px;
+	width: 0;
+}
+
+#popularbrands #prev {
+	background: url(../image/carousalarrow.png) no-repeat scroll 8px center #00A1CB;
+	position: absolute;
+	font-size: 24px;
+	text-indent: -9999px;
+	display: block;
+	overflow: hidden;
+	height: 25px;
+	width: 25px;
+	left: 0;
+	top: 30px
+}
+
+#popularbrands #next {
+	background: url(../image/carousalarrow.png) no-repeat scroll -18px center #00A1CB;
+	position: absolute;
+	font-size: 24px;
+	text-indent: -9999px;
+	display: block;
+	overflow: hidden;
+	height: 25px;
+	width: 25px;
+	right: 0;
+	top: 30px
+}

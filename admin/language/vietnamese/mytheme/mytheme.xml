@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+    <definition>
+        <key>mytheme_name</key>
+        <value><![CDATA[my theme]]></value>
+    </definition>
+    <definition>
+        <key>mytheme_note</key>
+        <value><![CDATA[Mô tả template http://vinacart.net/themes/mytheme]]></value>
+    </definition>
+    <definition>
+        <key>mytheme_description</key>
+        <value><![CDATA[Mô tả]]></value>
+    </definition>
+    <definition>
+        <key>mytheme_refresh_data</key>
+        <value><![CDATA[Hoàn lại dữ liệu theme]]></value>
+    </definition>
+    <definition>
+        <key>mytheme_reset_theme_data</key>
+        <value><![CDATA[Hoàn lại dữ liệu mẫu]]></value>
+    </definition>
+</definitions>

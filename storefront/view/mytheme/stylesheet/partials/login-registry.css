@@ -1,0 +1,83 @@
+/* login */
+.loginbox {
+	padding: 5px;
+}
+
+/* register */
+.registerbox {
+	padding: 15px 15px 0 15px;
+	margin-bottom: 15px
+}
+
+#Address2Frm .form-horizontal .control-label {
+	min-width: 75px;
+	width: auto;
+	text-align: left;
+}
+
+#Address2Frm .registerbox .controls {
+	width: auto;
+	margin-left: 29%;
+
+}
+
+.myaccountbox {
+	padding: 10px 15px 15px 5px;
+	margin-bottom: 10px
+}
+
+.myaccountbox ul {
+	padding: 0;
+	margin: 0
+}
+
+.myaccountbox ul li {
+	display: block;
+	border-bottom: 1px dashed #E7E7E7;
+}
+
+.myaccountbox ul li:last-child {
+	border: none;
+}
+
+.myaccountbox ul li a {
+	display: block;
+	padding: 5px 5px 5px 5px;
+	background: none;
+	color: #999999;
+}
+
+.myaccountbox ul li.selected, .myaccountbox ul li.selected a  {
+	display: block;
+	padding: 5px 5px 5px 5px;
+	background: none;
+	color: #00A1CB;
+}
+
+.myaccountbox ul li a:hover {
+	color: #00A1CB;
+	padding: 5px 5px 5px 5px;
+}
+
+.newcustomer, .returncustomer, .formbox {
+	width: 48%;
+	float: left;
+	border: 1px solid #E7E7E7;
+	padding: 15px 20px;
+}
+
+.returncustomer {
+	padding-right: 0;
+	margin-right: 0;
+	width: 48%;
+	float: right;
+}
+
+.newcustomer {
+	float: left;
+}
+
+.newcustomer input {
+	margin-top: 0;
+}
+

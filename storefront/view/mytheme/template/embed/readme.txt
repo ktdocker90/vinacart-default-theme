@@ -1,0 +1,1 @@
+Chú ý: đây là template hiển thị ra bên ngoài website chính, trong trường hợp bạn nhúng nội dung website này vào blog vệ tính hay web của người khác thì sửa các templates ở đây.

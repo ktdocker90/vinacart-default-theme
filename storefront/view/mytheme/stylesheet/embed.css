@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/*
+AbanteCart storefront CSS-styles for embedded blocks
+*/
+
+.vinacart-widget-container{
+}
+
+.vinacart-widget-container .vinacart_product{
+	width: 250px;
+}
+
+.vinacart-widget-container .vinacart_image{
+	margin: 10px auto;
+	text-align: center;
+}
+
+.vinacart-widget-cart{
+	position: fixed;
+	right: 0;
+	top: 80px;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	overflow: auto;
+    visibility: visible;
+    background: transparent url(../image/shoppingbag_icon.png) no-repeat;
+    background-size: 80px;
+    z-index: 20000;
+}
+.vinacart-widget-cart .cart_count {
+	position: relative;
+	top: 40px;
+	left: 10px;
+	width: 60px;
+	text-align: center;
+	color: #3071a9;
+}
+a.vinacart-widget-cart {
+	text-decoration: none;
+}
+
+#iframe_loading {
+	text-align: center;	
+	height: 650px;
+	background-color: white;
+	overflow: auto;
+    background: transparent url(../image/spinner.gif) no-repeat;
+	background-position: center;
+	z-index: 2000;
+}
+
+/**** product ******/
+.vinacart_image .product_thumb img {
+	width: 200px;
+	height: auto;
+}
+.vinacart_name {
+	text-align: center;
+}
+.vinacart_price  {
+	margin-top: 10px;
+	font-size: 16px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.vinacart_price .priceold {
+	float: left;
+	margin-right: 10px;
+	text-decoration: line-through;
+}
+.vinacart_price .oneprice {
+	text-align: center;
+}
+.vinacart_quantity {
+	margin: 10px 5px 0 0;
+	padding: 0 5px 0 10px;
+	overflow: hidden;
+	float: left;
+}
+.vinacart_quantity input{
+	min-width: 43px;
+	min-height: 30px;
+}
+.vinacart_addtocart {
+	margin: 10px 5px 0 0 ;
+	overflow: hidden;
+	text-align: center;
+}
+.vinacart-widget-container .vinacart_button {
+    background-color: #fff;
+    border-color: #ccc;
+	color: #333;
+    border-radius: 1px;
+	border-color: #ccc;
+	box-sizing: border-box;
+    -moz-user-select: none;
+    background-image: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: visible;
+    padding: 3px 10px;
+}
+
+/* category/manufacturers */
+ul.vinacart-widget-container {
+	display: block;
+	width: 100%;
+}
+.vinacart-widget-container h3 {
+	font: bold 16px/1.5 Helvetica, Verdana, sans-serif;
+	width: 300px; 
+}
+.vinacart-widget-container li img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.vinacart-widget-container li p {
+	font: 200 12px/1.5 Georgia, Times New Roman, serif;
+	text-align: center;
+}
+.vinacart-widget-container li {
+	padding: 5px;
+	overflow: auto;
+	float: left;
+	list-style: none;
+}
+.vinacart-widget-container li:hover {
+	background: #eee;
+}
+.vinacart-widget-container a {
+	text-decoration: none;
+}
+
+/* phone input css*/
+.intl-tel-input .country-list{
+	z-index: 4 !important;
+}

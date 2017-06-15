@@ -1,0 +1,57 @@
+
+.input-group-addon.captcha-addon {
+	padding: 0;
+}
+.input-group-addon.captcha-addon img{
+	height: 32px;
+}
+/* ------------ bootstrap overwrite ------------ */
+.form-control::-moz-placeholder{
+	color:#ccc;	
+	opacity:1;
+}
+.form-control:-ms-input-placeholder{
+	color:#ccc;
+}
+.form-control::-webkit-input-placeholder{
+	color:#ccc;
+}
+.form-horizontal.productform .control-label {
+	text-align: left !important;
+}
+
+.form-horizontal .align_left .control-label {
+	text-align: left;
+}
+.form-inline .checkbox.pull-right.mr10 {
+	width: auto;
+	min-width: 310px;
+	text-align: right;
+}
+.input-group label {
+	padding-top: 7px;
+}
+
+form .help-block {
+    text-align: center;
+}
+
+.form-control, .alert {
+    border-radius: 0;
+}
+
+.list-group {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.input-group-addon, .input-append .btn:last-child, .input-append .btn-group:last-child > .dropdown-toggle {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+label.error {
+	color: #00A1CB;
+	float: none;
+	display: inline-block
+}

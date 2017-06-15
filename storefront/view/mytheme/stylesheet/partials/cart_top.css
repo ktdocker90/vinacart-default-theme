@@ -1,0 +1,38 @@
+
+#top_cart_product_list > table:last-child {
+	width: 90%;
+}
+
+#top_cart_product_list table td.image, #top_cart_product_list table td.image img {
+	width: 50px;
+	padding: 3px;
+}
+#top_cart_product_list table td.name {
+	padding: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;	
+    max-width: 120px;
+}
+
+#top_cart_product_list table td.total {
+	color: #00A1CB;
+}
+
+#top_cart_product_list .totals {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#top_cart_product_list .totals td {
+	text-align: right;
+	width: 50%;
+}
+
+/* Uncoment if you want to set view limit wiht scroll to products in the cart dropdown 
+#top_cart_product_list .products {
+	overflow: auto;
+	height: 300px;
+}
+*/

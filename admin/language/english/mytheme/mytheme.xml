@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+    <definition>
+        <key>mytheme_name</key>
+        <value><![CDATA[my theme]]></value>
+    </definition>
+    <definition>
+        <key>mytheme_note</key>
+        <value><![CDATA[Theme URL http://vinacart.net/themes/mytheme]]></value>
+    </definition>
+    <definition>
+        <key>mytheme_description</key>
+        <value><![CDATA[Description]]></value>
+    </definition>
+    <definition>
+        <key>mytheme_refresh_data</key>
+        <value><![CDATA[Refresh Data]]></value>
+    </definition>
+    <definition>
+        <key>mytheme_reset_theme_data</key>
+        <value><![CDATA[Reset theme data]]></value>
+    </definition>
+
+</definitions>

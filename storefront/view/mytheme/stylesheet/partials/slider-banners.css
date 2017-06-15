@@ -1,0 +1,210 @@
+/* oneByOne slider*/
+#banner_slides{
+	display: none;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width: 768px) and (max-width: 1200px) {
+	#banner_slides img.wp1_1 {
+		left: 250px;
+		right: 0;
+	}
+	#banner_slides img.wp1_2 {
+		left: 250px;
+		right: 0;
+	}
+	#banner_slides img.wp1_3 {
+		left: 250px;
+		right: 0;
+	}
+}
+
+/* END @media FULL */
+
+@media (max-width: 979px) {
+	#banner_slides {
+		width: 770px;
+	}
+
+	#banner_slides .oneByOne_item {
+		width: 770px;
+	}
+
+	#banner_slides .oneByOne_item span.txt1 {
+		font-size: 20px;
+	}
+
+	#banner_slides .oneByOne_item span.txt2 {
+		font-size: 36px;
+	}
+
+	#banner_slides .oneByOne_item span.txt3, body #banner_slides .oneByOne_item span.txt4 {
+		width: 200px;
+	}
+
+	#banner_slides .oneByOne_item span.txt_right {
+		padding-left: 510px;
+	}
+
+	#banner_slides .oneByOne_item span.txt4.txt_right {
+		padding-left: 510px;
+	}
+
+	#banner_slides .oneByOne_item span.txt_right2 {
+		margin-left: 405px;
+	}
+
+	#banner_slides {
+		width: 800px;
+	}
+
+	#banner_slides img.wp1_3 {
+		right: auto !important;
+	}
+
+	#banner_slides img.wp1_3.wp1_left.slide2_bot {
+		left: -76px;
+	}
+
+	#banner_slides .oneByOne_item.banner:nth-child(2) span {
+		margin-left: 473px;
+	}
+
+	#banner_slides .oneByOne_item span.txt3 {
+		width: 240px !important;
+	}
+
+	.oneByOne_item.banner .animate0 img {
+		width: auto;
+	}
+
+	.oneByOne_item.banner .animate0 span {
+		font-size: 99% !important;
+	}
+}
+/* END @media (max-width: 979px) */
+
+@media (max-width: 760px) {
+	#banner_slides {
+		width: 480px;
+	}
+
+	#banner_slides .oneByOne_item {
+		width: 480px;
+	}
+
+	#banner_slides .oneByOne_item img.wp1_3 {
+		visibility: hidden;
+	}
+
+	#banner_slides .oneByOne_item span.txt1 {
+		font-size: 20px;
+	}
+
+	#banner_slides .oneByOne_item span.txt2 {
+		font-size: 36px;
+	}
+
+	#banner_slides .oneByOne_item span.txt3, body #banner_slides .oneByOne_item span.txt4 {
+		width: 200px;
+	}
+
+	#banner_slides .oneByOne_item span.txt_right {
+		padding-left: 10px;
+	}
+
+	#banner_slides .oneByOne_item span.txt4.txt_right {
+		padding-left: 10px;
+	}
+
+	#banner_slides .oneByOne_item span.txt_right2 {
+		margin-left: 10px;
+	}
+
+	.oneByOneSlide {
+		display: none;
+		visibility: hidden;
+	}
+
+	.banner_fallback {
+		display: block;
+	}
+
+	.banner_fallback img {
+		width: 100%;
+		height: auto;
+	}
+
+}
+@media only screen and (max-width: 480px) {
+	#banner_slides {
+		width: 300px;
+	}
+
+	#banner_slides .oneByOne_item {
+		width: 300px;
+	}
+
+	#banner_slides .oneByOne_item img.wp1_3 {
+		visibility: hidden;
+	}
+
+	#banner_slides .oneByOne_item span.txt1 {
+		font-size: 20px;
+	}
+
+	#banner_slides .oneByOne_item span.txt2 {
+		font-size: 36px;
+	}
+
+	#banner_slides .oneByOne_item span.txt3, body #banner_slides .oneByOne_item span.txt4 {
+		width: 200px;
+	}
+
+	#banner_slides .oneByOne_item span.txt_right {
+		padding-left: 10px;
+	}
+
+	#banner_slides .oneByOne_item span.txt4.txt_right {
+		padding-left: 10px;
+	}
+
+	#banner_slides .oneByOne_item span.txt_right2 {
+		margin-left: 10px;
+	}
+
+	.oneByOneSlide {
+		display: none;
+		visibility: hidden;
+	}
+
+	.banner_fallback {
+		display: block;
+	}
+
+	.banner_fallback img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/* ------------ banners ------------ */
+.banner_fallback {
+	display: none;
+}
+
+.smbanner {
+	margin: 20px auto 0 auto;
+	width: auto;
+}
+
+.smbanner .span3 a {
+	display: block;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.block_frame_banner_block{
+	clear: both;
+}

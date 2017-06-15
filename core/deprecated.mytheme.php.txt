@@ -1,0 +1,11 @@
+<?php
+
+if (! defined ( 'DIR_CORE' )) {
+header ( 'Location: static_pages/' );
+}
+
+//if(!class_exists('HW_Extension')) include_once (DIR_EXTENSIONS. '/hoangweb/core/lib/core.php');
+if(!defined('HAC_LIB_PATH')) exit('System plugin not loaded');
+
+$startup_extension = str_replace('_ExtensionMytheme', HW_Extension::rt2name('Extension/'.ucfirst($HAC_THEME_NAME)), file_get_contents(dirname(__FILE__). '/extension.php'));
+eval(preg_replace('/^.+\n/', '', $startup_extension));

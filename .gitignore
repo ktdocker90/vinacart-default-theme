@@ -1,0 +1,14 @@
+*.tmp
+data/*
+*.zip
+readme
+storefront/view/mytheme/asset
+storefront/view/mytheme/config
+storefront/view/mytheme/image
+storefront/view/mytheme/lib
+storefront/view/mytheme/template/blocks
+storefront/view/mytheme/template/common
+storefront/view/mytheme/template/form
+storefront/view/mytheme/template/mail
+storefront/view/mytheme/template/pages
+storefront/view/mytheme/template/responses
