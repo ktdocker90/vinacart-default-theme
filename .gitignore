@@ -3,6 +3,7 @@ data/*
 *.zip
 readme
 update.txt
+core/deprecated.mytheme.php.txt
 storefront/view/mytheme/asset
 storefront/view/mytheme/config
 storefront/view/mytheme/image

@@ -26,7 +26,9 @@ class ExtensionMytheme extends HW_Extension {
             HW_Libraries::register($name, $data);
         }
     }
-
+    private function isCurrentTheme() {
+        return $this->config->get('config_storefront_template')=== $this->getCurrentExtensionName();
+    }
     //frontend hook
     /*public function onControllerPagesIndexHome_InitData($method) {
         #$this->registry->set('template', 'home');
@@ -42,7 +44,7 @@ class ExtensionMytheme extends HW_Extension {
         //init controller data
         HW_Template::init($this, $this->baseObject, $this->registry);   //for both storefront & admin
         //allow custom templates in admin at design/blocks/edit|insert
-        if(1||!$this->is_admin(1) ) {
+        if(!$this->is_admin(1) && $this->isCurrentTheme()) {
             /*$lang = $this->baseObject->language->language_details['filename'];    //@deprecated do in core/vinacart.php
             $this->baseObject->loadLanguage('_'. $lang);*/
             $theme_name = basename(dirname(dirname(__FILE__)));
@@ -120,4 +122,7 @@ class ExtensionMytheme extends HW_Extension {
 
 }
     //class_alias('ExtensionMytheme', HW_Extension::rt2name('Extension/'.ucfirst($HAC_THEME_NAME)));
+    else:
+        echo 'Please install/enable <a href="https://marketplace.abantecart.com/vinacart"><strong>vinacart</strong></a> extension.';
+        die;
 endif;

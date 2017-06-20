@@ -4,7 +4,7 @@ if (! defined ( 'DIR_CORE' )) {
     header ( 'Location: static_pages/' );
 }
 //constants
-define('HAC_THEME_PATH', dirname(__FILE__));
+//define('HAC_THEME_PATH', dirname(__FILE__));
 //define('HAC_THEME_NAME', basename(dirname(__FILE__)));
 $HAC_THEME_NAME = basename(dirname(__FILE__));
 
@@ -87,7 +87,8 @@ $templates = array(
         'blocks/banner_block/banner_block_nivoslider.tpl',
 
         'blocks/manufacturer.tpl',
-        
+        //'blocks/manufacturer_slides.tpl',
+
         'blocks/menu.tpl',
         'blocks/menu_bottom.tpl',
         'blocks/menu_top.tpl',

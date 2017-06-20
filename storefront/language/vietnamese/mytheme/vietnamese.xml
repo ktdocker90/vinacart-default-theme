@@ -34,12 +34,17 @@
     </definition>
     <definition>
         <key>text_select_all</key>
-        <value>Tất cả</value>
+        <value><![CDATA[Tất cả]]></value>
     </definition>
 
     <definition>
         <key>text_learn_more</key>
-        <value>Xem thêm</value>
+        <value><![CDATA[Xem thêm]]></value>
     </definition>
-
+    <!--    #text_empty
+    <definition>
+        <key>text_products_not_found</key>
+        <value><![CDATA[Không tìm thấy các sản phẩm này]]></value>
+    </definition>
+-->
 </definitions>

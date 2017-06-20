@@ -40,5 +40,10 @@
         <key>text_learn_more</key>
         <value>Learn more</value>
     </definition>
-
+    <!--    #text_empty
+    <definition>
+        <key>text_products_not_found</key>
+        <value><![CDATA[Products not found in store]]></value>
+    </definition>
+-->
 </definitions>
