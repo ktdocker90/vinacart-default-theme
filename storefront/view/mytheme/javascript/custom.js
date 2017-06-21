@@ -329,7 +329,7 @@ function process_thumbnails() {
     });
 }
 
-if(typeof openModalRemote!=='function')
+//if(typeof openModalRemote!=='function')
 function openModalRemote(id, url, loadText, replace){
 	var modal = $(id);
 	var modalBody = $(id +' .modal-body');
