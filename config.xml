@@ -53,7 +53,7 @@
     <preview>
         <item>preview.jpg</item>
     </preview>
-    <help_file><![CDATA[readme.txt]]></help_file>
+    <!-- <help_file><![CDATA[readme.txt]]></help_file> -->
     <note>true</note>
 
     <sample_data>thoitrang</sample_data>
