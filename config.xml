@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension>
   <id>mytheme</id>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <type>template</type>
   <category>template</category>
   <cartversions>
