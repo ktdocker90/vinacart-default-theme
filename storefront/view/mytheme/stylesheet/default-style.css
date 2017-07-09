@@ -4,3 +4,13 @@
 @import url('partials/login-registry.css');
 @import url('partials/newsletter.css');
 /*@import url('partials/respond.css');*/
+
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: url(../images/Preloader_2.gif) center no-repeat #fff;
+}

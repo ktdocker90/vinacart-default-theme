@@ -3,8 +3,7 @@
 if (! defined ( 'DIR_CORE' )) {
     header ( 'Location: static_pages/' );
 }
-if(!class_exists('HW_Template') /*&& defined('HAC_EXT_PATH')*/) require_once (DIR_EXT. '/vinacart/core/autoload.php');
-//else die('Error! not found vinacart extension.');
+
 if(!in_array('vinacart', $this->extensions->getEnabledExtensions())) {
     $this->session->data['error'] = "Require <strong>VNC Theme Framework</strong> extension. Download <a href='https://marketplace.abantecart.com/vinacart' target='_blank'>here</a>.";
     redirect($this->html->getSecureURL('extension/extensions/extensions'));
@@ -13,7 +12,8 @@ if(!in_array('developer_tools', $this->extensions->getEnabledExtensions())) {
     $this->session->data['error'] = basename(__DIR__). " require developer_tools extension during import data";
     redirect($this->html->getSecureURL('extension/extensions/extensions'));
 }
-
+if(!class_exists('HW_Template') /*&& defined('HAC_EXT_PATH')*/) require_once (DIR_EXT. '/vinacart/core/autoload.php');
+//else die('Error! not found vinacart extension.');
 //theme name
 $HAC_THEME_NAME = basename(dirname(__FILE__));
 $theme_inst = HW_Template::get_theme($HAC_THEME_NAME);

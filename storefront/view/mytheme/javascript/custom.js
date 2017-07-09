@@ -1,4 +1,5 @@
 $(window).bind("load", function() {
+    $(".se-pre-con").fadeOut("slow");   //by vinacart
     /*$(function () {
             $('#banner_slides').show();
 
@@ -330,7 +331,7 @@ function process_thumbnails() {
 }
 
 //if(typeof openModalRemote!=='function')
-function openModalRemote(id, url, loadText, replace){
+function openModalRemote(id, url, loadText, replace, title){
 	var modal = $(id);
 	var modalBody = $(id +' .modal-body');
 	if(modalBody.length==0) modalBody = $(id +' .vnc-modal-body');
@@ -339,6 +340,7 @@ function openModalRemote(id, url, loadText, replace){
     }
     if(modal.hw_is_ajax_working()) return;
     $('body').css('cursor','wait');
+    if(title) modal.find('.vnc-modal-title').html(title);
 
 	modal.off('show.bs.modal');	//prevent duplicate event
 	modal.on('show.bs.modal', function () {
@@ -348,7 +350,7 @@ function openModalRemote(id, url, loadText, replace){
             url: url,
             success: function(output) {
                 //var modal = $(id);
-                modal.hw_reset_ajax_state();
+                modal.hw_reset_ajax_state(true);
                 $('body').css('cursor','');
 
                 if(!replace) {
@@ -363,10 +365,14 @@ function openModalRemote(id, url, loadText, replace){
                     else console.log('Not found modal body: .vnc-modal-body');
                 }
                 else {
-                    modal.replaceWith($(output.trim()).attr('id', id.replace('#','')));
+                    var newDlg =$(output.trim()).attr('id', id.replace('#',''));
+                    newDlg.attr({'id':'', 'class':''});
+                    modal.empty().append(newDlg);    //modal.replaceWith(newDlg);
+                    //destroy dialog
+                    //modal.data('modal', null).modal( 'hide' ).data( 'bs.modal', null );
                     //modal.attr('id', id.replace('#',''));
                 }
-                //move_form_fields_requirement();
+                move_form_fields_requirement();
             }
         });
             
@@ -378,9 +384,12 @@ function openModalRemote(id, url, loadText, replace){
 			}
 		}).done(function(){}).error(function(){});*/
 	}).modal();
-    
+    openModalRemote.currentModal=modal;
 }
-
+function closeModalRemote(id) {
+  //$.magnificPopup.instance.close();
+  if(openModalRemote.currentModal) openModalRemote.currentModal.modal('hide').modal('toggle');
+}
 
 //show toast messages
 function show_toast(msg) {
