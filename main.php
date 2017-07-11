@@ -313,6 +313,7 @@ $templates = array(
         'blocks/viewed_products_cblock.tpl',
         'blocks/viewed_products_tblock.tpl',
 
+        'blocks/offers.tpl',
         'blocks/offers_bestseller_home.tpl',
         'blocks/offers_featured_home.tpl',
         'blocks/offers_latest_home.tpl',

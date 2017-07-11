@@ -341,6 +341,7 @@ function openModalRemote(id, url, loadText, replace, title){
     if(modal.hw_is_ajax_working()) return;
     $('body').css('cursor','wait');
     if(title) modal.find('.vnc-modal-title').html(title);
+    if(replace) modal.find('.vnc-modal-title').html('');
 
 	modal.off('show.bs.modal');	//prevent duplicate event
 	modal.on('show.bs.modal', function () {
@@ -359,8 +360,10 @@ function openModalRemote(id, url, loadText, replace, title){
                       modalBody = $(id).find('.vnc-modal-body');//modal.parent().find(id+' .vnc-modal-body');
                     }
                     if(modalBody.length) {
+                        //if(title) modal.find('.vnc-modal-title').html(title);
                         //modalBody.html(output);
-                        $(id +' .vnc-modal-body').empty().append(output.trim());
+                        //$(id +' .vnc-modal-body').empty().append(output.trim());
+                        modalBody.empty().append(output.trim());
                     }
                     else console.log('Not found modal body: .vnc-modal-body');
                 }
