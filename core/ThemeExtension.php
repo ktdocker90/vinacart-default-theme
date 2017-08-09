@@ -113,7 +113,7 @@ class ExtensionMytheme extends HW_Extension {
         #$this->baseObject->document->addScriptBottom();
         #$filename = DIR_EXT . str_replace('../', '', $this->request->get['extension']) . '/config.xml';
         #HW::_print($this->baseObject->config->get('config_url') );
-
+        $this->theme->load_assets();
     }*/
     //language hook
     /*public function onALanguageLoad($block, $mode) {

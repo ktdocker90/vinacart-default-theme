@@ -7,7 +7,16 @@ core/deprecated.mytheme.php.txt
 storefront/view/mytheme/asset
 storefront/view/mytheme/config
 storefront/view/mytheme/image
+storefront/view/mytheme/images
+storefront/view/mytheme/fonts/font-awesome
+storefront/view/mytheme/fonts/dosis
+storefront/view/mytheme/fonts/italic
+storefront/view/mytheme/fonts/roboto
+storefront/view/mytheme/fonts/simple-line-icons
+storefront/view/mytheme/fonts/clhLqOv7MXn459PTh0gXYHW1xglZCgocDnD_teV2lMU.woff
 storefront/view/mytheme/lib
+storefront/view/mytheme/javascript/90b2f8e39b729c5fa7aeb83a80014818.min.js
+storefront/view/mytheme/javascript/b46b54632040dbe5ab626d3aefd38329.min.min.js
 storefront/view/mytheme/template/blocks
 storefront/view/mytheme/template/common
 storefront/view/mytheme/template/form
